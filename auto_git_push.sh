@@ -1,0 +1,12 @@
+#!/bin/bash
+# Navigate to your repository directory
+cd /path/to/your/repository
+
+# Add all changes (including new files)
+git add .
+
+# Commit changes with a message
+git commit -m "Automatic commit - $(date)"
+
+# Push changes to GitHub (replace 'main' with your branch name if needed)
+git push origin main
