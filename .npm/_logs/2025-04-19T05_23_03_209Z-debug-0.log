@@ -1,0 +1,222 @@
+0 verbose cli /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:/data/data/com.termux/files/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/data/data/com.termux/files/home/.npmrc
+5 silly config load:file:/data/data/com.termux/files/usr/etc/npmrc
+6 verbose title npm install localtunnel
+7 verbose argv "install" "--global" "localtunnel"
+8 verbose logfile logs-max:10 dir:/data/data/com.termux/files/home/.npm/_logs/2025-04-19T05_23_03_209Z-
+9 verbose logfile /data/data/com.termux/files/home/.npm/_logs/2025-04-19T05_23_03_209Z-debug-0.log
+10 silly packumentCache heap:1003749376 maxSize:250937344 maxEntrySize:125468672
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest localtunnel@*
+14 silly packumentCache full:https://registry.npmjs.org/localtunnel cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/localtunnel 617ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/localtunnel set size:undefined disposed:false
+17 silly placeDep ROOT localtunnel@2.0.2 OK for:  want: *
+18 silly fetch manifest axios@0.21.4
+19 silly packumentCache full:https://registry.npmjs.org/axios cache-miss
+20 silly fetch manifest debug@4.3.2
+21 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+22 silly fetch manifest openurl@1.1.1
+23 silly packumentCache full:https://registry.npmjs.org/openurl cache-miss
+24 silly fetch manifest yargs@17.1.1
+25 silly packumentCache full:https://registry.npmjs.org/yargs cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/axios 150ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/axios set size:undefined disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/openurl 337ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/openurl set size:undefined disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/debug 345ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+32 http fetch GET 200 https://registry.npmjs.org/yargs 485ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/yargs set size:undefined disposed:false
+34 silly placeDep node_modules/localtunnel axios@0.21.4 OK for: localtunnel@2.0.2 want: 0.21.4
+35 silly placeDep node_modules/localtunnel debug@4.3.2 OK for: localtunnel@2.0.2 want: 4.3.2
+36 silly placeDep node_modules/localtunnel openurl@1.1.1 OK for: localtunnel@2.0.2 want: 1.1.1
+37 silly placeDep node_modules/localtunnel yargs@17.1.1 OK for: localtunnel@2.0.2 want: 17.1.1
+38 silly fetch manifest follow-redirects@^1.14.0
+39 silly packumentCache full:https://registry.npmjs.org/follow-redirects cache-miss
+40 silly fetch manifest ms@2.1.2
+41 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+42 silly fetch manifest y18n@^5.0.5
+43 silly packumentCache full:https://registry.npmjs.org/y18n cache-miss
+44 silly fetch manifest cliui@^7.0.2
+45 silly packumentCache full:https://registry.npmjs.org/cliui cache-miss
+46 silly fetch manifest escalade@^3.1.1
+47 silly packumentCache full:https://registry.npmjs.org/escalade cache-miss
+48 silly fetch manifest string-width@^4.2.0
+49 silly packumentCache full:https://registry.npmjs.org/string-width cache-miss
+50 silly fetch manifest yargs-parser@^20.2.2
+51 silly packumentCache full:https://registry.npmjs.org/yargs-parser cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/ms 234ms (cache miss)
+53 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+54 silly fetch manifest get-caller-file@^2.0.5
+55 silly packumentCache full:https://registry.npmjs.org/get-caller-file cache-miss
+56 http fetch GET 200 https://registry.npmjs.org/cliui 278ms (cache miss)
+57 silly packumentCache full:https://registry.npmjs.org/cliui set size:undefined disposed:false
+58 silly fetch manifest require-directory@^2.1.1
+59 silly packumentCache full:https://registry.npmjs.org/require-directory cache-miss
+60 http fetch GET 200 https://registry.npmjs.org/y18n 347ms (cache miss)
+61 silly packumentCache full:https://registry.npmjs.org/y18n set size:undefined disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/follow-redirects 359ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/follow-redirects set size:undefined disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/escalade 425ms (cache miss)
+65 silly packumentCache full:https://registry.npmjs.org/escalade set size:undefined disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/string-width 431ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/string-width set size:undefined disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/get-caller-file 217ms (cache miss)
+69 silly packumentCache full:https://registry.npmjs.org/get-caller-file set size:undefined disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/require-directory 179ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/require-directory set size:undefined disposed:false
+72 http fetch GET 200 https://registry.npmjs.org/yargs-parser 475ms (cache miss)
+73 silly packumentCache full:https://registry.npmjs.org/yargs-parser set size:undefined disposed:false
+74 silly placeDep node_modules/localtunnel follow-redirects@1.15.9 OK for: axios@0.21.4 want: ^1.14.0
+75 silly placeDep node_modules/localtunnel ms@2.1.2 OK for: debug@4.3.2 want: 2.1.2
+76 silly placeDep node_modules/localtunnel cliui@7.0.4 OK for: yargs@17.1.1 want: ^7.0.2
+77 silly placeDep node_modules/localtunnel escalade@3.2.0 OK for: yargs@17.1.1 want: ^3.1.1
+78 silly placeDep node_modules/localtunnel get-caller-file@2.0.5 OK for: yargs@17.1.1 want: ^2.0.5
+79 silly placeDep node_modules/localtunnel require-directory@2.1.1 OK for: yargs@17.1.1 want: ^2.1.1
+80 silly placeDep node_modules/localtunnel string-width@4.2.3 OK for: yargs@17.1.1 want: ^4.2.0
+81 silly placeDep node_modules/localtunnel y18n@5.0.8 OK for: yargs@17.1.1 want: ^5.0.5
+82 silly placeDep node_modules/localtunnel yargs-parser@20.2.9 OK for: yargs@17.1.1 want: ^20.2.2
+83 silly fetch manifest wrap-ansi@^7.0.0
+84 silly packumentCache full:https://registry.npmjs.org/wrap-ansi cache-miss
+85 silly fetch manifest strip-ansi@^6.0.0
+86 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+87 silly fetch manifest strip-ansi@^6.0.1
+88 silly packumentCache full:https://registry.npmjs.org/strip-ansi cache-miss
+89 silly fetch manifest emoji-regex@^8.0.0
+90 silly packumentCache full:https://registry.npmjs.org/emoji-regex cache-miss
+91 silly fetch manifest is-fullwidth-code-point@^3.0.0
+92 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point cache-miss
+93 http fetch GET 200 https://registry.npmjs.org/strip-ansi 243ms (cache miss)
+94 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/strip-ansi 251ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/strip-ansi set size:undefined disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 254ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/is-fullwidth-code-point set size:undefined disposed:false
+99 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 264ms (cache miss)
+100 silly packumentCache full:https://registry.npmjs.org/wrap-ansi set size:undefined disposed:false
+101 http fetch GET 200 https://registry.npmjs.org/emoji-regex 265ms (cache miss)
+102 silly packumentCache full:https://registry.npmjs.org/emoji-regex set size:undefined disposed:false
+103 silly placeDep node_modules/localtunnel strip-ansi@6.0.1 OK for: cliui@7.0.4 want: ^6.0.0
+104 silly placeDep node_modules/localtunnel wrap-ansi@7.0.0 OK for: cliui@7.0.4 want: ^7.0.0
+105 silly fetch manifest ansi-regex@^5.0.1
+106 silly packumentCache full:https://registry.npmjs.org/ansi-regex cache-miss
+107 silly fetch manifest ansi-styles@^4.0.0
+108 silly packumentCache full:https://registry.npmjs.org/ansi-styles cache-miss
+109 http fetch GET 200 https://registry.npmjs.org/ansi-regex 196ms (cache miss)
+110 silly packumentCache full:https://registry.npmjs.org/ansi-regex set size:undefined disposed:false
+111 http fetch GET 200 https://registry.npmjs.org/ansi-styles 201ms (cache miss)
+112 silly packumentCache full:https://registry.npmjs.org/ansi-styles set size:undefined disposed:false
+113 silly placeDep node_modules/localtunnel emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+114 silly placeDep node_modules/localtunnel is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+115 silly placeDep node_modules/localtunnel ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+116 silly placeDep node_modules/localtunnel ansi-styles@4.3.0 OK for: wrap-ansi@7.0.0 want: ^4.0.0
+117 silly fetch manifest color-convert@^2.0.1
+118 silly packumentCache full:https://registry.npmjs.org/color-convert cache-miss
+119 http fetch GET 200 https://registry.npmjs.org/color-convert 178ms (cache miss)
+120 silly packumentCache full:https://registry.npmjs.org/color-convert set size:undefined disposed:false
+121 silly placeDep node_modules/localtunnel color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+122 silly fetch manifest color-name@~1.1.4
+123 silly packumentCache full:https://registry.npmjs.org/color-name cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/color-name 189ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/color-name set size:undefined disposed:false
+126 silly placeDep node_modules/localtunnel color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+127 silly reify moves {}
+128 http cache localtunnel@https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.2.tgz 1ms (cache hit)
+129 http cache color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 0ms (cache hit)
+130 http cache color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 0ms (cache hit)
+131 http cache ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 0ms (cache hit)
+132 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 0ms (cache hit)
+133 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+134 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 0ms (cache hit)
+135 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+136 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 0ms (cache hit)
+137 http cache y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 0ms (cache hit)
+138 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+139 http cache get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 0ms (cache hit)
+140 http cache require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 0ms (cache hit)
+141 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 0ms (cache hit)
+142 http cache escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 0ms (cache hit)
+143 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 0ms (cache hit)
+144 http cache follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 0ms (cache hit)
+145 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-17.1.1.tgz 0ms (cache hit)
+146 http cache openurl@https://registry.npmjs.org/openurl/-/openurl-1.1.1.tgz 0ms (cache hit)
+147 http cache axios@https://registry.npmjs.org/axios/-/axios-0.21.4.tgz 0ms (cache hit)
+148 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 0ms (cache hit)
+149 http cache debug@https://registry.npmjs.org/debug/-/debug-4.3.2.tgz 0ms (cache hit)
+150 silly tarball no local data for localtunnel@https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.2.tgz. Extracting by manifest.
+151 silly tarball no local data for color-name@https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz. Extracting by manifest.
+152 silly tarball no local data for color-convert@https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz. Extracting by manifest.
+153 silly tarball no local data for ansi-styles@https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz. Extracting by manifest.
+154 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+155 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz. Extracting by manifest.
+156 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+157 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+158 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+159 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz. Extracting by manifest.
+160 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+161 silly tarball no local data for get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz. Extracting by manifest.
+162 silly tarball no local data for require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz. Extracting by manifest.
+163 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+164 silly tarball no local data for escalade@https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz. Extracting by manifest.
+165 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.2.tgz. Extracting by manifest.
+166 silly tarball no local data for follow-redirects@https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz. Extracting by manifest.
+167 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-17.1.1.tgz. Extracting by manifest.
+168 silly tarball no local data for openurl@https://registry.npmjs.org/openurl/-/openurl-1.1.1.tgz. Extracting by manifest.
+169 silly tarball no local data for axios@https://registry.npmjs.org/axios/-/axios-0.21.4.tgz. Extracting by manifest.
+170 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz. Extracting by manifest.
+171 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.3.2.tgz. Extracting by manifest.
+172 http fetch GET 200 https://registry.npmjs.org/color-name/-/color-name-1.1.4.tgz 309ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 310ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 309ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 289ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-4.3.0.tgz 315ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.2.tgz 324ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 316ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz 328ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.9.tgz 306ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/openurl/-/openurl-1.1.1.tgz 632ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 674ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.2.tgz 703ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 725ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 720ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 717ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 733ms (cache miss)
+188 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 739ms (cache miss)
+189 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.2.0.tgz 727ms (cache miss)
+190 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 736ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 788ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-17.1.1.tgz 809ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/axios/-/axios-0.21.4.tgz 809ms (cache miss)
+194 silly ADD node_modules/localtunnel
+195 silly ADD node_modules/localtunnel/node_modules/color-name
+196 silly ADD node_modules/localtunnel/node_modules/color-convert
+197 silly ADD node_modules/localtunnel/node_modules/ansi-styles
+198 silly ADD node_modules/localtunnel/node_modules/ansi-regex
+199 silly ADD node_modules/localtunnel/node_modules/is-fullwidth-code-point
+200 silly ADD node_modules/localtunnel/node_modules/emoji-regex
+201 silly ADD node_modules/localtunnel/node_modules/wrap-ansi
+202 silly ADD node_modules/localtunnel/node_modules/strip-ansi
+203 silly ADD node_modules/localtunnel/node_modules/yargs-parser
+204 silly ADD node_modules/localtunnel/node_modules/y18n
+205 silly ADD node_modules/localtunnel/node_modules/string-width
+206 silly ADD node_modules/localtunnel/node_modules/require-directory
+207 silly ADD node_modules/localtunnel/node_modules/get-caller-file
+208 silly ADD node_modules/localtunnel/node_modules/escalade
+209 silly ADD node_modules/localtunnel/node_modules/cliui
+210 silly ADD node_modules/localtunnel/node_modules/ms
+211 silly ADD node_modules/localtunnel/node_modules/follow-redirects
+212 silly ADD node_modules/localtunnel/node_modules/yargs
+213 silly ADD node_modules/localtunnel/node_modules/openurl
+214 silly ADD node_modules/localtunnel/node_modules/debug
+215 silly ADD node_modules/localtunnel/node_modules/axios
+216 verbose cwd /data/data/com.termux/files/home/myblog
+217 verbose os Linux 4.19.191-g309620095329-dirty
+218 verbose node v22.14.0
+219 verbose npm  v10.9.2
+220 verbose exit 0
+221 info ok
