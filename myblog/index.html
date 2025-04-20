@@ -1,14 +1,126 @@
-s
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>National Dialogue</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>National Dialogue | Promoting Well-being Globally</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #004aad, #0085ff);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    nav {
+      background-color: #002e6d;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .ticker {
+      background-color: #ffdd00;
+      padding: 8px;
+      color: #000;
+      font-weight: bold;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .ticker span {
+      display: inline-block;
+      animation: scrollTicker 12s linear infinite;
+    }
+    @keyframes scrollTicker {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    section.hero {
+      padding: 40px 20px;
+      background: #e5f3ff;
+      text-align: center;
+    }
+    section.hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    section.hero p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+    .cta-button {
+      background-color: #004aad;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .cta-button:hover {
+      background-color: #003980;
+    }
+    .video-section {
+      padding: 30px;
+      text-align: center;
+    }
+    .video-section iframe {
+      width: 90%;
+      max-width: 720px;
+      height: 400px;
+    }
+    footer {
+      background-color: #002e6d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to National Dialogue</h1>
-  <p>Promoting the well-being of Ghanaians, Africans, and the Global Community through Informed Dialogue.</p>
+  <header>
+    <h1>Welcome to National Dialogue</h1>
+    <p>Promoting the well-being of Ghanaians, Africans, and the Global Community through Informed Dialogue.</p>
+  </header>  <nav>
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">Videos</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>  <div class="ticker">
+    <span>Breaking: GES recruits demand improved conditions | National Dialogue going global | Stay tuned for our latest interviews and articles!</span>
+  </div>  <section class="hero">
+    <h2>Voice of the People, Heart of the Nation</h2>
+    <p>Stay informed. Get inspired. Make impact.</p>
+    <button class="cta-button" onclick="alert('More features coming soon!')">Explore More</button>
+  </section>  <section class="video-section">
+    <h2>Watch Our Latest Feature</h2>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </section>  <footer>
+    <p>&copy; 2025 National Dialogue. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
-q
