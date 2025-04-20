@@ -1,0 +1,2 @@
+AH00526: Syntax error on line 2 of /data/data/com.termux/files/usr/etc/apache2/httpd.conf:
+Invalid command 'o#', perhaps misspelled or defined by a module not included in the server configuration
